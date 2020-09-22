@@ -1,0 +1,14 @@
+{% extends "welcome_stud.html" %}
+{% block content %}
+<form method="post">
+<div class="jumbotron">
+     <p>log in here</p>
+    {{form_new.hidden_tag()}}
+    {{form_new.username.label}}  {{form_new.username}}
+        <br>
+    {{form_new.password.label}}  {{form_new.password}}
+     {{form_new.submit()}}
+</div>
+    </form>
+
+{% endblock %}

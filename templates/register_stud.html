@@ -1,0 +1,20 @@
+
+{% extends "welcome_stud.html" %}
+{% block content %}
+<form method="post">
+
+    <div class="jumbotron">
+         <p>sign up here</p>
+    <p>Enter Your username and password</p>
+
+    {{form.hidden_tag()}}
+    {{form.username.label}}  {{form.username}}
+        <br>
+    {{form.password.label}}  {{form.password}}
+        <br>
+    {{form.pass_confirm.label}}  {{form.pass_confirm}}
+    {{form.submit()}}
+    </div>
+</form>
+{% endblock %}
+
