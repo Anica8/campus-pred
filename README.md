@@ -1,2 +1,2 @@
 # campus-pred
-predicting placement
+predicting placement using logistic regression
